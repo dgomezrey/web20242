@@ -17,7 +17,7 @@ const MapSection = (props) => {
   const [currentLocation, setCurrentLocation] = useState(null); // Inicializa como null
   const [events, setEvents] = useState([]); // Estado para los eventos
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDRgxdv23RDhqv7rKDlLOsXRvjBZVUaEQA", // Reemplaza con tu API Key
+    googleMapsApiKey: "", // Reemplaza con tu API Key
     libraries,
   });
 
